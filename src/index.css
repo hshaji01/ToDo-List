@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: antiquewhite;
+}
+.header {
+  background-color: lightgrey;
+  padding: 0.25rem;
+  margin:auto;
+}
+.footer button {
+  border: none;
+  background-color: unset;
+  font-size: medium;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.separtor {
+  margin-right: 1rem;
+}
+.error {
+  border-bottom: 2px solid red;
+}
+.error::after {
+  content: "Please add some todo";
+  display: block;
+  color: red;
+  font-size: small;
+  margin-top: 0.5rem;
+}
+.todo-text-btn {
+  gap: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.App {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgray;
+}
+
+.add-new {
+  width: 80%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+/* .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin: 0 5rem;
+} */
+.to-do-container {
+  width: 100%;
+  padding: 0.5rem 0;
+  margin-bottom: 2rem;
+}
+.to-do-container span {
+  color: gray;
+}
+.todo-empty {
+  font-size: medium;
+  font-weight: 700;
+}
+.main-container {
+  margin: 0 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.add-btn {
+  font-size:medium;
+  width: 10rem;
+  height: 2.1875rem;
+  font-weight: 700;
+}
+.todo-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid lightgray ;
+}
+.todo-list--btn button {
+  background-color: unset;
+  border: none;
+}
+.todo-mark{
+  text-decoration: line-through;
+}
+.footer .stat-btn {
+  border: 1px solid gray;
+}
